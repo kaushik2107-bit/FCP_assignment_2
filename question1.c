@@ -2,24 +2,24 @@
 
 int main() {
 	int a;
-	printf("Enter the number: ");
+	printf("Enter a number: ");
 	scanf("%d", &a);
 	if (a == 1) {
-		printf("Monday");
+		printf("Monday\n");
 	} else if (a == 2) {
-		printf("Tuesday");
+		printf("Tuesday\n");
 	} else if (a == 3) {
-		printf("Wednesday");
+		printf("Wednesday\n");
 	} else if (a == 4) {
-		printf("Thursday");
+		printf("Thursday\n");
 	} else if (a == 5) {
-		printf("Friday");
+		printf("Friday\n");
 	} else if (a == 6) {
-		printf("Saturday");
+		printf("Saturday\n");
 	} else if (a ==7) {
-		printf("Sunday");
+		printf("Sunday\n");
 	} else {
-		printf("There are only 7 days in a week.");
+		printf("There are only 7 days in a week.\n");
 	}
 	return 0;
 }
