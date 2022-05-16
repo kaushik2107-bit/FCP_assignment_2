@@ -6,6 +6,6 @@ int main() {
 
 	float out;
 	out = inches * 2.54;
-	printf("%f", out);
+	printf("%f\n", out);
 	return 0;
 }
